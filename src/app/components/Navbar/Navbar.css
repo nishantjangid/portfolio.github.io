@@ -1,0 +1,16 @@
+
+.letsTalkContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.letsTalkContainer > div.menu{
+    margin-left: 10px;
+}
+
+@media (max-width: 200px) {
+    .letsTalkContainer > div.menu{
+        margin-left: 0px;
+    }
+  }
+  

@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --text-color: #000D13;
+  --background-color:#000D13;
+  --heading-color:61, 90, 128;
+  /* --text-color:152, 193, 217; */
+  --hightlight-text-color:238, 108, 77;
+  --rearly-use:224, 251, 252;
+  --secondary-color: #E0FBFC;
+  --bg-color-2:#98c1d9;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: var(--text-color);
+  --tw-bg-opacity: 1;
+  background: var(--background-color);
+    /* background-color: rgb(255 233 217 / var(--tw-bg-opacity)); */
+}
+
+.box-color{
+  background-color: var(--secondary-color);
+}
+
+.hover-box:hover{
+  background-color: var(--secondary-color);
+}
+
+.featured-properties{
+  background-color: var(--bg-color-2);
+}
+
+
+.footer {
+  position: relative;
+  /* width: 512px;
+  height: 512px; */
+  /* margin: auto; */
+  /* border-radius: 23px; */
+  overflow: hidden;
+  background: linear-gradient(
+    -90deg,
+    #e3e5e8 0%,
+    #ebe4e3 10%,
+    #e4e1e0 25%,
+    #cdeeeb 45%,
+    #CDE8E5 60%,
+    #EEF7FF 75%,
+    #CDE8E5 100%
+    #628e8e 85%,
+  );
+}
+
+.footer::before,
+.footer::after,
+.footer > .circles,
+.footer > .circles::before,
+.footer > .circles::after {
+  filter: blur(75px);
+}
+
+.footer::before,
+.footer::after {
+  position: absolute;
+  content: "";
+  width: 390px;
+  height: 390px;
+  border-radius: 100%;
+}
+
+.footer::before {
+  background: #ffecf5;
+  top: -195px;
+  left: -195px;
+}
+
+.footer::after {
+  background: #d8ebee;
+  right: -220px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.footer > .circles,
+.footer > .circles::before,
+.footer > .circles::after {
+  border-radius: 100%;
+  position: absolute;
+}
+
+.footer > .circles::before,
+.footer > .circles::after {
+  content: "";
+  width: 140px;
+  height: 140px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.footer > .circles {
+  width: 230px;
+  height: 230px;
+  background: #ffc285;
+  bottom: -60px;
+  left: 75px;
+}
+
+.footer > .circles::before {
+  background: #8600ff;
+  left: -40%;
+}
+
+.footer > .circles::after {
+  background: #ff0000;
+  right: -20%;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
