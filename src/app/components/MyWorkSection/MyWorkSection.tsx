@@ -1,5 +1,4 @@
 import React from "react";
-import project1 from "../../assets/project-snaps/project1.png"
 const MyWorkSection = () => {
   return (
     <section className="bg-[#ffffff] py-[120px]">
@@ -24,7 +23,7 @@ const MyWorkSection = () => {
             data-aos-delay="300"
           >
             <div className="rounded-[20px] overflow-hidden mb-6">
-              <img src={project1.src} alt="project1" />
+              <img src="/assets/project-snaps/project1.png" alt="image"/>
             </div>
             <div className="flex flex-wrap flex-col gap-3">
               <div className="flex flex-wrap gap-2">
@@ -57,7 +56,7 @@ const MyWorkSection = () => {
             data-aos-delay="500"
           >
             <div className="rounded-[20px] overflow-hidden mb-6">
-              <img src={project1.src} alt="project1" />
+              <img src="/assets/project-snaps/project1.png" alt="project1" />
             </div>
             <div className="flex flex-wrap flex-col gap-3">
               <div className="flex flex-wrap gap-2">

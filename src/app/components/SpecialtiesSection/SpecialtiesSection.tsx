@@ -1,8 +1,5 @@
 import React from "react";
 import "./SpecialtiesSection.css";
-import apiIcon from "../../assets/api-icon.gif"
-import webDesign from "../../assets/web-design.gif"
-import softwareSolution from "../../assets/software-solution.gif"
 const SpecialtiesSection = () => {
   return (
     <section className="py-32 text-white">
@@ -31,7 +28,7 @@ const SpecialtiesSection = () => {
                 data-aos-delay="500"
               >
                 <div className="w-12 h-12 bg-black rounded-full shadow flex flex-wrap items-center justify-center transition-all group-hover:bg-black mb-8">
-                  <img src={apiIcon.src} className="w-10"/>
+                  <img src="/assets/api-icon.gif" alt="icon" className="w-10"/>
                 </div>
 
                 <h4>
@@ -181,7 +178,7 @@ const SpecialtiesSection = () => {
                 data-aos-delay="900"
               >
                 <div className="w-12 h-12 bg-black rounded-full shadow flex flex-wrap items-center justify-center transition-all group-hover:bg-black-500 mb-8">
-                    <img src={webDesign.src} className="w-8"/>
+                    <img alt="image" src="/assets/web-design-gif" className="w-8" />
                 </div>
 
                 <h4>
@@ -319,7 +316,7 @@ const SpecialtiesSection = () => {
                 data-aos-delay="700"
               >
                 <div className="w-12 h-12 bg-black rounded-full shadow flex flex-wrap items-center justify-center transition-all group-hover:bg-black-500 mb-8">
-                  <img src={softwareSolution.src} className="w-10"/>
+                  <img alt="image" src="/assets/software-solution.gif" className="w-10" />
                 </div>
 
                 <h4>

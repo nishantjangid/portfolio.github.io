@@ -1,7 +1,6 @@
 "use client"
 import React, { useState } from "react";
 import "./SkillSection.css"
-import trophy from "../../assets/trophy.png"
 const SkillSection = () => {
   const [active,setActive] = useState(1);
   return (
@@ -335,7 +334,7 @@ const SkillSection = () => {
                       Apex University
                     </p>
                     <h4 className="font-bold font-Syne leading-normal text-2xl text-black-800">
-                      Master's in Computer Application
+                      Master&#39;s in Computer Application
                     </h4>
                   </div>
                 </div>
@@ -349,7 +348,7 @@ const SkillSection = () => {
                       Jaipur National University
                     </p>
                     <h4 className="font-bold font-Syne leading-normal text-2xl text-black-800">
-                      Bachlore's of Computer Application
+                      Bachlore&#39;s of Computer Application
                     </h4>
                   </div>
                 </div>
@@ -501,7 +500,7 @@ const SkillSection = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="p-8 bg-black text-white rounded-2xl transition-all hover:shadow-2xl hover:bg-white hover:text-black group flex flex-wrap flex-col gap-8">
                   <div className="flex items-start justify-between">
-                    <img src={trophy.src} alt="icons" className="w-10 hover:from-black" />
+                    <img src="/assets/project-snaps/trophy.png" alt="icons" className="w-10 hover:from-black" />
                     <span className="font-normal text-sm font-Inter text-black-text-800">
                       2023
                     </span>

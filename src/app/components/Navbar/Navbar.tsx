@@ -1,14 +1,13 @@
 'use client'
 import React, { useState } from "react";
 import "./Navbar.css";
-import logo from "../../logo.png";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="flex pl-4 xl:pl-0">
       <div className="flex-1 flex items-center justify-between border-b border-[#3d5a80] border-opacity-40">
         <a href="/">
-          <img src={logo.src} alt="logo" className="w-24 sm:w-15" />
+          <img src="/assets/logo.png" alt="logo" className="w-24 sm:w-15" />
         </a>
         <a
           href="contact.html"
