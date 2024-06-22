@@ -23,6 +23,12 @@ jobs:
         run: npm ci
       - name: Build Project
         run: npm run build && npm run export
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: github-pages
+          path: out
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
