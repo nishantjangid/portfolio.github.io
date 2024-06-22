@@ -500,7 +500,7 @@ const SkillSection = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="p-8 bg-black text-white rounded-2xl transition-all hover:shadow-2xl hover:bg-white hover:text-black group flex flex-wrap flex-col gap-8">
                   <div className="flex items-start justify-between">
-                    <img src="/assets/project-snaps/trophy.png" alt="icons" className="w-10 hover:from-black" />
+                    <img src="/portfolio.github.io/assets/project-snaps/trophy.png" alt="icons" className="w-10 hover:from-black" />
                     <span className="font-normal text-sm font-Inter text-black-text-800">
                       2023
                     </span>

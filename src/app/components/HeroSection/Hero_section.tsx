@@ -218,7 +218,7 @@ const Hero_section = () => {
         <img
           className="absolute top-0 right-0 md:max-w-[420px] lg:max-w-[570px] xl:max-w-[650px] 2xl:max-w-[initial] aos-init aos-animate"
           data-aos="fade-left"
-          src="/assets/hero.png"
+          src="/portfolio.github.io/assets/hero.png"
           alt="hero Image"
         />
 
